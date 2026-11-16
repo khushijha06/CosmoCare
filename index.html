@@ -1,0 +1,100 @@
+<div class="moon"></div>
+<div class="app">
+
+  <header>
+    <div class="logo">✦ COSMOCARE</div>
+    <span class="mission">MISSION HEALTH SYSTEM / 01</span>
+  </header>
+
+  <section class="hero">
+    <p class="eyebrow">ASTRONAUT WELLNESS MONITOR</p>
+    <h1>Your health.<br><span>Beyond Earth.</span></h1>
+    <p class="subtitle">
+      Monitoring physiological and wellbeing indicators
+      during long-duration space missions.
+    </p>
+  </section>
+
+  <section class="status">
+    <div>
+      <p class="eyebrow">SYSTEM OVERVIEW</p>
+      <h2 id="statusTitle">Awaiting health check</h2>
+      <p id="statusText">Enter your readings below.</p>
+    </div>
+    <div class="status-dot" id="statusDot">●</div>
+  </section>
+
+  <section class="metrics">
+    <h2>Daily health check-in</h2>
+    <p class="hint">Enter demonstration readings</p>
+
+    <div class="field">
+      <label for="heart">♥ Heart rate (BPM)</label>
+      <input id="heart" type="number" value="74">
+    </div>
+
+    <div class="field">
+      <label for="oxygen">◉ Blood oxygen (SpO₂ %)</label>
+      <input id="oxygen" type="number" value="98">
+    </div>
+
+    <div class="field">
+      <label for="sleep">☾ Sleep duration (hours)</label>
+      <input id="sleep" type="number" value="7">
+    </div>
+
+    <div class="field">
+      <label for="stress">◎ Self-reported stress (1–10)</label>
+      <input id="stress" type="number" min="1" max="10" value="3">
+    </div>
+
+    <button id="checkButton">ANALYSE MY READINGS →</button>
+  </section>
+
+  <section class="results">
+    <h2>Health analysis</h2>
+    <div id="result">
+      Your health summary will appear here after analysis.
+    </div>
+  </section>
+
+  <footer>
+    COSMOCARE · SPACE HEALTH RESEARCH
+    <p>Educational prototype. Demonstration data only.
+    Not a medical diagnostic tool.</p>
+  </footer>
+
+</div>
+<section class="results nasa-section">
+  <p class="eyebrow">NASA RESEARCH CONNECTION</p>
+  <h2>Research Insights 🚀</h2>
+  <p class="hint">
+    Scientific context informing CosmoCare's monitoring approach.
+  </p>
+
+  <div class="result-item">
+    <span class="result-label">01 · CARDIOVASCULAR HEALTH</span>
+    <p>Spaceflight can cause cardiovascular adaptations.
+    Tracking individual health trends may help identify changes.</p>
+  </div>
+
+  <div class="result-item">
+    <span class="result-label">02 · SLEEP & CIRCADIAN RHYTHM</span>
+    <p>Disrupted sleep and circadian rhythms are important
+    considerations during long-duration missions.</p>
+  </div>
+
+  <div class="result-item">
+    <span class="result-label">03 · SPACE BIOLOGY</span>
+    <p>NASA spaceflight studies investigate biological
+    responses to the space environment.</p>
+  </div>
+
+  <a href="https://osdr.nasa.gov/" target="_blank">
+    Explore NASA Open Science Data Repository →
+  </a>
+  <br><br>
+  <a href="https://www.nasa.gov/hrp/" target="_blank">
+    NASA Human Research Program →
+  </a>
+</section>
