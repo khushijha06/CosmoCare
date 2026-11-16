@@ -1,0 +1,219 @@
+body {
+  background-color: #000;
+  color: #fff;
+  min-height: 100vh;
+  font-family: sans-serif;
+  display: grid;
+  place-items: center;
+}
+
+figure {
+  margin: 0;
+  text-align: center;
+}
+
+.moon {
+  background-color: #000;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.moon::before {
+  content: '';
+  background-color: #fff;
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  z-index: -1;
+  animation: 9.2s animation linear infinite alternate
+}
+
+@keyframes animation {
+  0% {
+    transform: translateX(25px) scale(0.9);
+    box-shadow: none;
+  }
+  50% {
+    transform: translate(0, 0) scale(1.03);
+    box-shadow: 0 0 10px #fff, 0 0 80px 2px #fff;
+  }
+  100% {
+    transform: translateX(-25px) scale(0.9);
+    box-shadow: none;
+  }
+}
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #080d19;
+  color: #edf3ff;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.app {
+  width: 100%;
+  max-width: 760px;
+  margin: auto;
+  padding: 28px 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid #26334a;
+  padding-bottom: 20px;
+}
+
+.logo {
+  color: #8ce9db;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.mission, .eyebrow {
+  font-size: 10px;
+  color: #8b9ab5;
+  letter-spacing: 2px;
+}
+
+.hero {
+  padding: 48px 0 30px;
+}
+
+h1, h2 {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+h1 {
+  font-size: clamp(38px, 9vw, 62px);
+  line-height: 1.08;
+  margin: 15px 0;
+}
+
+h1 span {
+  color: #8ce9db;
+}
+
+.subtitle, .hint {
+  color: #9ba9bf;
+  line-height: 1.7;
+}
+
+.status, .metrics, .results {
+  background: #121d30;
+  border: 1px solid #283953;
+  border-radius: 18px;
+  padding: 22px;
+  margin: 20px 0;
+}
+
+.status {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.status h2 {
+  font-size: 20px;
+}
+
+.status-dot {
+  color: #8ce9db;
+  font-size: 27px;
+}
+
+.field {
+  margin: 22px 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 9px;
+  font-size: 14px;
+}
+
+input {
+  width: 100%;
+  padding: 15px;
+  background: #091222;
+  border: 1px solid #344762;
+  border-radius: 10px;
+  color: white;
+  font-size: 17px;
+}
+
+input:focus {
+  outline: 1px solid #8ce9db;
+}
+
+button {
+  width: 100%;
+  padding: 17px;
+  margin-top: 12px;
+  background: #8ce9db;
+  border: none;
+  border-radius: 10px;
+  color: #08121d;
+  font-weight: 700;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(.98);
+}
+
+#result {
+  color: #c5d2e7;
+  line-height: 1.8;
+}
+
+.result-item {
+  padding: 12px 0;
+  border-bottom: 1px solid #293950;
+}
+
+.result-label {
+  color: #8ce9db;
+  font-weight: 600;
+}
+
+footer {
+  text-align: center;
+  color: #8b9ab5;
+  font-size: 11px;
+  padding: 30px 0;
+  letter-spacing: 1px;
+}
+
+footer p {
+  letter-spacing: 0;
+  line-height: 1.6;
+}
+.nasa-section {
+  margin-top: 28px;
+}
+
+.nasa-section a {
+  color: #8ce9db;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 2;
+}
+
+.nasa-section a:hover {
+  text-decoration: underline;
+}
+
+.nasa-section p {
+  line-height: 1.7;
+}
