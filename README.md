@@ -12,15 +12,15 @@ An astronaut health-monitoring prototype for long-duration space missions.
 
 1. Main Dashboard
 
-"Dashboard" (dashboard.png)
+"CosmoCare Dashboard" (./dashboard.png)
 
 2. Health Analysis
 
-"Health Analysis" (health-analysis.png)
+"CosmoCare Health Analysis" (./health-analysis.png)
 
 3. Health Insights
 
-"Health Insights" (health-insights.png)
+"CosmoCare Health Insights" (./health-insights.png)
 
 🛠️ Technologies Used
 
