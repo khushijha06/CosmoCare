@@ -1,36 +1,32 @@
-🚀 CosmoCare
+CosmoCare
 
 Astronaut Health Monitoring System
 
 An astronaut health-monitoring prototype for long-duration space missions.
 
-🌐 Live Website
+Live Website
 
 "Launch CosmoCare" (https://khushijha06.github.io/CosmoCare/)
 
-📸 Project Screenshots
+Project Screenshots
 
-1. Main Dashboard
+### Main Dashboard
+![Dashboard](dashboard.png)
 
-"CosmoCare Dashboard" (./dashboard.png)
+### Health Analysis
+![Health Analysis](health-analysis.png)
 
-2. Health Analysis
+### Health Insights
+![Health Insights](health-insights.png)
 
-"CosmoCare Health Analysis" (./health-analysis.png)
-
-3. Health Insights
-
-"CosmoCare Health Insights" (./health-insights.png)
-
-🛠️ Technologies Used
+Technologies Used
 
 - HTML
 - CSS
 - JavaScript
 - GitHub Pages
 
-👩‍💻 Developer
+Developer
 
 Khushi Jha
-BSc Biotechnology Student
 NASA Space Apps Challenge 2026 – Solo Participant
